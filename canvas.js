@@ -37,7 +37,7 @@ function allBalls (x, y, dx, dy, radius, minIncrease, maxDecrease, sizeSpeed) {
     this.draw = function() {
         c.beginPath()
         c.arc(x, y, radius, 0, Math.PI * 2, false)
-        c.strokeStyle = 'black'
+        c.strokeStyle = 'transparent'
         c.fillStyle = this.ballColour
         c.fill()
         c.stroke()
